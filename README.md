@@ -1,4 +1,4 @@
-PY_GLICH 为了艺术而破坏
+PY_GLITCH 为了艺术而破坏
 =========
 
 
@@ -19,3 +19,16 @@ py_glich.py [-h] [--intensity INTENSITY] [--buffer BUFFERSIZE]
   --header     文件头部信息的大小，默认200，图片的header一般很小；破坏header将导致文件无法识别
 
 ```
+一次性生成3个文件，并将intensity强度调低
+```
+$ python py_glitch.py foler/我的视频.mp4 /目标/文件夹 --count 3 --intensity 0.02
+```
+### 效果
+![a1](a1.jpg)
+![a2](a2.jpg)
+![b1](b1.jpg)
+![b2](b2.jpg)
+![c1](c1.jpg)
+![c2](c2.jpg)
+
+
